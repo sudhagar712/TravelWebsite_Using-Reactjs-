@@ -1,0 +1,32 @@
+.carousel-item1 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.40)), url("https://www.tripsavvy.com/thmb/7YN-gf_50uV51cbx-z_Zg4VUPWI=/3637x2426/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-516056865-5b7ad4cf46e0fb00502b3e3d.jpg");
+}
+
+.carousel-item2 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.30)), url("https://t3.ftcdn.net/jpg/01/31/06/50/360_F_131065006_95Z2J1WHYXguRPoJcoUPOUcJHvp3L4KL.jpg");
+}
+
+.carousel-item3 {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.50)), url("https://c0.wallpaperflare.com/preview/78/157/95/human-person-building-architecture.jpg");
+}
+
+.carousel-item1,
+.carousel-item2,
+.carousel-item3 {
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-item1 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/header-img1.jpg);
+    }
+    
+    .carousel-item2 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../../Assets/Images/header-img2.jpg);
+    }
+    
+    .carousel-item3 {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../../Assets/Images/header-img3.jpg);
+    }
+}
